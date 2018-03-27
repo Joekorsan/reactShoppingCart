@@ -7,7 +7,8 @@ import CartItems from './CartItems'
 class App extends Component {
 
   state = {
-    currentItem: 'chicken'
+    currentItem: 'chicken',
+    copyRight: 2018
   }
 
 
@@ -24,7 +25,7 @@ class App extends Component {
       <div className="App">
         <CartHeader />
         <CartItems item={this.state.currentItem}/>
-        <CartFooter />
+        <CartFooter copyRight={this.state.copyRight} />
       </div>
     );
   }
