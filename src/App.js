@@ -8,7 +8,7 @@ class App extends Component {
 
   state = {
     currentItem: 'chicken',
-    copyRight: 2018
+    copyRight: 2016
   }
 
 
